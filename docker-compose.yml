@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      OPENAI_API_KEY: "CHANGE-HERE"
+      TELE_API_KEY: "CHANGE-HERE"
